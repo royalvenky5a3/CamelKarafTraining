@@ -1,0 +1,105 @@
+{
+	"Document": {
+		"FIToFICstmrCdtTrf": {
+			"GrpHdr": {
+				"InstdAgt": {
+					"FinInstnId": {
+						"BICFI": "ZZZZAU2S123"
+					}
+				},
+				"CreDtTm": "2016-04-27T16:45:21.487Z",
+				"SttlmInf": {
+					"SttlmMtd": "CLRG",
+					"ClrSys": {
+						"Cd": "NPP"
+					}
+				},
+				"NbOfTxs": 1,
+				"MsgId": "SITTESTING186",
+				"InstgAgt": {
+					"FinInstnId": {
+						"BICFI": "ZZZZAU2SXXX"
+					}
+				}
+			},
+			"CdtTrfTxInf": {
+				"Cdtr": {
+					"CtctDtls": {
+						"Nm": "The Citizen's Department"
+					},
+					"Nm": "Net Mobile"
+				},
+				"PmtTpInf": {
+					"SvcLvl": {
+						"Prtry": "npp.clear.01-x2p1.01"
+					}
+				},
+				"DbtrAcct": {
+					"Id": {
+						"Othr": {
+							"Id": 999789123456789,
+							"Issr": 999789,
+							"SchmeNm": {
+								"Cd": "BBAN"
+							}
+						}
+					}
+				},
+				"CdtrAcct": {
+					"Ccy": "AUD",
+					"Id": {
+						"Othr": {
+							"Id": "092002002256042",
+							"Issr": "092002",
+							"SchmeNm": {
+								"Cd": "BBAN"
+							}
+						}
+					}
+				},
+				"PmtId": {
+					"TxId": "SITTESTING_186",
+					"EndToEndId": "SITTESTING186"
+				},
+				"DbtrAgt": {
+					"FinInstnId": {
+						"BICFI": "ZZZZAU2SXXX"
+					}
+				},
+				"ChrgBr": "SLEV",
+				"RmtInf": {
+					"Ustrd": "US606_TC3_Fixed_PD"
+				},
+				"RgltryRptg": {
+					"Dtls": {
+						"Cd": "DBTRTP",
+						"Tp": "INDV"
+					}
+				},
+				"IntrBkSttlmDt": "2016-04-06",
+				"CdtrAgt": {
+					"FinInstnId": {
+						"BICFI": "ZZZZAU2S123"
+					}
+				},
+				"IntrBkSttlmAmt": {
+					"Ccy": "AUD",
+					"content": 111.5
+				},
+				"InstdAmt": {
+					"Ccy": "AUD",
+					"content": 111.11
+				},
+				"Dbtr": {
+					"CtctDtls": {
+						"Nm": "Customer 1"
+					},
+					"Nm": "NPP TESTING IN DEV ENV"
+				}
+			}
+		},
+		"xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.05",
+		"xsi:schemaLocation": "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.05 SCT_pacs.008.001.05-20151026.xsd",
+		"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+	}
+}
